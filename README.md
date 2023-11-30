@@ -5,20 +5,19 @@
 ```bash
 git clone https://github.com/mridul217/pc-monitoring-using-prometheus-grafana-insdie-docker-container
 cd pc-monitoring-using-prometheus-grafana-insdie-docker-container
-docker compose up -d
-'''
+docker-compose up -d
+```
 
 ## Result
+To see the result open the browser and go to the below address.
 
-To see the result open browser and go to the below address.
-
-'''bash
+```bash
 localhost:3000
-'''
+```
 
 
 ## To close the monitoring
 
-'''bash
-docker compose down
-'''
+```bash
+docker-compose down
+```
