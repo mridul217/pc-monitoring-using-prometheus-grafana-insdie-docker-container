@@ -14,7 +14,7 @@ services:
     pid: host
     restart: unless-stopped 
     volumes:
-      - '/:/host:ro,rslave'
+      - '/:/host:ro'
 
   prometheus:
     image: prom/prometheus:latest
@@ -33,8 +33,6 @@ services:
     image: grafana/grafana:latest
     container_name: grafana
     network_mode: host
-    ports:
-      - '3000:3000'
     restart: unless-stopped
     volumes:
       - grafana-data:/var/lib/grafana
