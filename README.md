@@ -1,7 +1,7 @@
 # pc-monitoring-using-prometheus-grafana-insdie-docker-container
 ## Setup docker in linux
 
-(follow this link)[https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu]
+[follow this link](https://www.simplilearn.com/tutorials/docker-tutorial/how-to-install-docker-on-ubuntu)
 
 ## How to run
 ```bash
